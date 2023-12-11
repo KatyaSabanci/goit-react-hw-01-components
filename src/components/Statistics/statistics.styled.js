@@ -1,15 +1,19 @@
 import styled from 'styled-components';
 
 export const StatisticsWrapper = styled.section`
-  width: 450px;
-  border: 1px solid black;
+  width: 300px;
+  border: 1px solid blue;
   margin: 30px auto;
   text-align: center;
+  border-radius: 10px;
 `;
 
 export const StatisticsList = styled.ul`
   display: flex;
   margin-top: 50px;
+  width: 300px;
+  padding-left: 0px;
+  background-color: #f0f0f0;
 `;
 
 export const StatisticsItem = styled.li`

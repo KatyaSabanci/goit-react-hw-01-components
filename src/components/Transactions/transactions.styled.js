@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 
 export const Table = styled.table`
-  width: 500px;
-  border: 1px solid black;
+  width: 300px;
+  border: 1px solid blue;
+  border-radius: 10px;
   margin: 30px auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3);
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Header = styled.th`

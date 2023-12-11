@@ -1,5 +1,6 @@
 import React from 'react';
 import { Table, Header } from './transactions.styled';
+
 const TransactionHistory = ({ transactions }) => {
   return (
     <Table>

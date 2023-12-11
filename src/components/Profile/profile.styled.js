@@ -1,28 +1,35 @@
 import styled from 'styled-components';
 
 export const UserProfile = styled.div`
-display: flex;
-flex - direction: column; 
-align - items: center; 
-width: 360px; 
-border: solid 1px blue; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 370px;
+  margin: 10px auto 0 auto;
+  border: 1px solid blue;
+  border-radius: 10px;
 `;
 
 export const Avatar = styled.img`
   width: 100px;
   height: 100px;
+  border-radius: 100%;
   margin-top: 15px;
 `;
 
 export const UserName = styled.p`
-  font-weight: 800;
-  font-size: 26px;
   margin-top: 30px;
+  font-size: 24px;
+  font-weight: 900;
 `;
 
 export const InfoList = styled.ul`
   display: flex;
-  width: 100%;
+  width: 300px;
+  justify-content: center;
+  margin-left: 0px;
+  padding-left: 0px;
 `;
 
 export const InfoItem = styled.li`
@@ -32,6 +39,6 @@ export const InfoItem = styled.li`
   justify-content: center;
   align-items: center;
   background-color: #f0f0f0;
-  height: 45px;
-  border: 1px solid blue;
+  height: 30px;
+  border: 1px solid black;
 `;
